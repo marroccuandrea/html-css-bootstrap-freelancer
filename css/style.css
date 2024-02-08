@@ -1,9 +1,19 @@
-[class^="container"]{
-    background-color: rgba(0, 0, 250, 0.3);
+[class^="container"],
+[class^="row"],
+[class^="col"]{
+    background-color: rgba(74, 74, 244, 0.3);
+    border: 1px solid black;
+}
+
+.debug{
     border: 1px solid black;
 }
 
 header{
     height: 80px;
-    background-color: #2C3F51;
+    /*background-color: #2C3F51;*/
+}
+
+ul li{
+    list-style: none;
 }
