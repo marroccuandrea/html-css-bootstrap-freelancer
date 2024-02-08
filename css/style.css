@@ -1,9 +1,9 @@
 [class^="container"]{
-    background-color: rgba(0, 0, 255, 0.3);
+    background-color: rgba(0, 0, 250, 0.3);
     border: 1px solid black;
 }
 
 header{
     height: 80px;
-    background-color: aquamarine;
+    background-color: #2C3F51;
 }
