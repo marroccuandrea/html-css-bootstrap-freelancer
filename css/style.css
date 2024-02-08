@@ -1,5 +1,4 @@
 [class^="container"],
-[class^="row"],
 [class^="col"]{
     background-color: rgba(74, 74, 244, 0.2);
     border: 1px solid black;
@@ -8,14 +7,15 @@
 
 .debug{
     border: 1px solid black;
+    
 }
 
 header{
     height: 80px;
     /*background-color: #2C3F51;*/
-    position: fixed;
+    /*position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 999;*/
 }
 
 ul li{
@@ -27,7 +27,7 @@ ul li a{
 }
 
 main{
-    margin-top: 80px;
+    /*margin-top: 80px;*/
 }
 
 .jumbotron{
@@ -35,3 +35,7 @@ main{
     min-height: 490px;
 }
 
+.container_about{
+    width: 70%;
+    margin: 0 auto;
+}
