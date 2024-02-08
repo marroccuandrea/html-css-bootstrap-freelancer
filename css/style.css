@@ -3,6 +3,7 @@
 [class^="col"]{
     background-color: rgba(74, 74, 244, 0.2);
     border: 1px solid black;
+    min-height: 30px;
 }
 
 .debug{
@@ -27,4 +28,13 @@ ul li a{
 
 main{
     margin-top: 80px;
+}
+
+.jumbotron{
+    background-color: #1ABC9D;
+    min-height: 490px;
+}
+
+.container.jumbo{
+    
 }
