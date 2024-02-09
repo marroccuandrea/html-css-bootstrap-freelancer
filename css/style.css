@@ -21,11 +21,21 @@ section{
 }
 
 main{
-    margin-top: 94px;
+    margin-top: 90px;
 }
 
-.jumbotron{
+.jumbotron, .about{
     background-color: #31BC9C;
+    
+}
+
+.jumbotron .avatar{
+    width: 260px;
+    height: 260px;
+}
+
+.jumbotron h1{
+    font-size: 2.2rem;
     
 }
 
