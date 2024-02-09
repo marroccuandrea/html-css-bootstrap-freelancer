@@ -83,6 +83,10 @@ main{
     margin: 0 auto;
 }
 
+.about .custom-container{
+    font-size: 1.3rem;
+}
+
 .my_form input,
 .my_form textarea {
   border-top: none;
