@@ -115,6 +115,40 @@ main{
   background-color: #137964;
 }
 
+.footer-top{
+    background-color: #3A546D;
+}
+
+.footer-top i {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 0.7em 0.9em;
+  
+}
+
+.footer-top #google{
+    padding: 0.7em 0.6em;
+}
+
+.footer-top #twitter{
+    padding: 0.7em 0.7em;
+}
+
+.footer-top #linkedin{
+    padding: 0.7em 0.8em;
+}
+
+.footer-top a{
+    color: #31BC9C;
+    text-decoration: none;
+}
+
+
+.footer-bottom{
+    background-color: #2B3E51;
+}
+
 
 /******************************************
 
@@ -132,4 +166,9 @@ main{
     .jumbotron h1{
         font-size: 3.1rem;
     }
+
+    .footer-top h5{
+        font-size: 1.7rem;
+    }
+
 }
