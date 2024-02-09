@@ -1,29 +1,25 @@
 [class^="container"],
 [class^="col"]{
-    background-color: rgba(74, 74, 244, 0.2);
+    
     border: 1px solid black;
     min-height: 30px;
 }
 
 .debug{
     border: 1px solid black;
-    
+    background-color: rgba(74, 74, 244, 0.2);
 }
 
 header{
-    height: 80px;
+    
     background-color: #2C3F51;
     position: fixed;
     top: 0;
     z-index: 999;
 }
 
-ul li{
-    list-style: none;
-}
-
-ul li a{
-    text-decoration: none;
+section{
+    padding: 60px 0;
 }
 
 main{
@@ -31,11 +27,16 @@ main{
 }
 
 .jumbotron{
-    background-color: #1ABC9D;
-    min-height: 490px;
+    background-color: #31BC9C;
+    
 }
 
-.container_about{
+.portfolio .cust-card{
+    background-color: #31BC9C;
+    min-height: 300px;
+}
+
+.custom-container{
     width: 70%;
     margin: 0 auto;
 }
