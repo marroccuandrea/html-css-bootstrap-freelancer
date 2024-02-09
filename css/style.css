@@ -69,6 +69,8 @@ main{
 .portfolio .cust-card{
     background-color: #31BC9C;
     border-radius: 20px;
+    position: relative;
+    cursor: pointer;
 }
 
 .portfolio .cust-card img{
@@ -77,6 +79,34 @@ main{
     height: 100%;
     border-radius: 20px;
 }
+
+/*  HOVER CARD  */
+
+.plus-hidden{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5rem;
+    border-radius: 20px;
+    background-color: rgba(26, 188, 156, 0.4);
+}
+
+.plus-hidden i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col:hover .plus-hidden{
+    display: block;
+}
+
+/*  HOVER CARD  */
 
 .custom-container{
     width: 60%;
