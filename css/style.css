@@ -17,7 +17,7 @@ header{
 }
 
 section{
-    padding: 60px 0;
+    padding: 50px 0;
 }
 
 main{
@@ -47,6 +47,17 @@ main{
     border-radius: 2px;
     background-color: white;
     margin: 0 20px;
+}
+
+.portfolio .l-star:before,
+.portfolio .l-star:after,
+.contact .l-star:before,
+.contact .l-star:after{
+    background-color: #2C3F51;
+}
+
+.portfolio, .contact{
+    color: #2C3F51;
 }
 
 .l-star i{
