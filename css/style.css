@@ -114,3 +114,22 @@ main{
 .my_button:hover {
   background-color: #137964;
 }
+
+
+/******************************************
+
+               RESPONSIVE
+
+******************************************/
+
+@media (min-width: 992px){
+    .about h2,
+    .contact h2,
+    .portfolio h2{
+        font-size: 3rem;
+    }
+
+    .jumbotron h1{
+        font-size: 3.1rem;
+    }
+}
