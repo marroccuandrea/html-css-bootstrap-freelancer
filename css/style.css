@@ -1,9 +1,3 @@
-[class^="container"],
-[class^="col"]{
-    
-    border: 1px solid black;
-    min-height: 30px;
-}
 
 .debug{
     border: 1px solid black;
@@ -23,7 +17,7 @@ section{
 }
 
 main{
-    margin-top: 80px;
+    margin-top: 94px;
 }
 
 .jumbotron{
